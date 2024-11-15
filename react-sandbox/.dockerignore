@@ -1,0 +1,7 @@
+node_modules
+npm-cache
+yarn-cache
+.DS_Store
+.env
+.git
+.vscode
