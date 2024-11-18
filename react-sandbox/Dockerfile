@@ -4,7 +4,7 @@ WORKDIR /react-app
 
 COPY package*.json ./
 
-RUN npm cache clean --force && npm install
+RUN npm cache clear --force && npm install
 
 COPY . /react-app
 
